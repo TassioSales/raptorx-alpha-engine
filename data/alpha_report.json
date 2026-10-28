@@ -1,0 +1,84 @@
+[
+  {
+    "token_symbol": "JUP",
+    "token_name": "Jupiter",
+    "mint_address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+    "price_usd": 0.2803,
+    "total_liquidity_usd": 3885205.0100000002,
+    "total_volume_24h_usd": 1695606.1999999995,
+    "txns_24h": {
+      "buys": 20897,
+      "sells": 25918,
+      "buy_ratio": 0.44637402541920324
+    },
+    "price_impact_10k_usd_pct": 0.000864425654051542,
+    "critical_alpha_questions": [
+      {
+        "question": "A liquidez nos pools da Solana é orgânica ou concentrada por formadores de mercado com risco de saída?",
+        "metric": "Liquidez Total: $3,885,205.01 USD distribuída em 30 pools",
+        "alpha_insight": "A alta dispersão de liquidez entre Raydium CLMM e Meteora mitiga risco de 'rug pull', mas exige rotas de agregação como Jupiter para swaps de grande porte sem slippage proibitivo."
+      },
+      {
+        "question": "Qual o grau de eficiência do capital (Volume 24h vs Liquidez Total)?",
+        "metric": "Volume 24h: $1,695,606.20 USD | Razão Vol/Liq: 0.44x",
+        "alpha_insight": "Uma razão acima de 1.0x indica uso intensivo do token como par de roteamento e trading ativo, garantindo fluxo constante de taxas para o protocolo."
+      },
+      {
+        "question": "Como a pressão transacional das últimas 24h se comporta no nível de microestrutura?",
+        "metric": "20,897 compras vs 25,918 vendas (44.6% viés comprador)",
+        "alpha_insight": "Um equilíbrio sustentável próximo de 50-55% demonstra acumulação sem capitulação de baleias."
+      },
+      {
+        "question": "Qual é a profundidade de execução real para ordens institucionais de $10.000 USD via Jupiter?",
+        "metric": "Impacto de preço medido on-chain: 0.0009% para swap de 10k USDC",
+        "alpha_insight": "Slippage inferior a 0.1% em swaps de 5 dígitos comprova maturidade institucional e atratividade para fundos de arbitragem."
+      },
+      {
+        "question": "Qual é o vetor de captura de valor para os detentores do token além da especulação pura?",
+        "metric": "Mecanismo de 'Fee Share' e poder de governança em emissões de LSTs e Perps",
+        "alpha_insight": "O token acumula valor fundamental através do direcionamento de liquidez e distribuição direta de taxas do ecossistema de derivativos."
+      }
+    ]
+  },
+  {
+    "token_symbol": "RAY",
+    "token_name": "Raydium",
+    "mint_address": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+    "price_usd": 1.75,
+    "total_liquidity_usd": 15897476.1,
+    "total_volume_24h_usd": 4152714.4699999993,
+    "txns_24h": {
+      "buys": 26948,
+      "sells": 22904,
+      "buy_ratio": 0.5405600577710021
+    },
+    "price_impact_10k_usd_pct": 0.003748932468360969,
+    "critical_alpha_questions": [
+      {
+        "question": "A liquidez nos pools da Solana é orgânica ou concentrada por formadores de mercado com risco de saída?",
+        "metric": "Liquidez Total: $15,897,476.10 USD distribuída em 30 pools",
+        "alpha_insight": "A alta dispersão de liquidez entre Raydium CLMM e Meteora mitiga risco de 'rug pull', mas exige rotas de agregação como Jupiter para swaps de grande porte sem slippage proibitivo."
+      },
+      {
+        "question": "Qual o grau de eficiência do capital (Volume 24h vs Liquidez Total)?",
+        "metric": "Volume 24h: $4,152,714.47 USD | Razão Vol/Liq: 0.26x",
+        "alpha_insight": "Uma razão acima de 1.0x indica uso intensivo do token como par de roteamento e trading ativo, garantindo fluxo constante de taxas para o protocolo."
+      },
+      {
+        "question": "Como a pressão transacional das últimas 24h se comporta no nível de microestrutura?",
+        "metric": "26,948 compras vs 22,904 vendas (54.1% viés comprador)",
+        "alpha_insight": "Um equilíbrio sustentável próximo de 50-55% demonstra acumulação sem capitulação de baleias."
+      },
+      {
+        "question": "Qual é a profundidade de execução real para ordens institucionais de $10.000 USD via Jupiter?",
+        "metric": "Impacto de preço medido on-chain: 0.0037% para swap de 10k USDC",
+        "alpha_insight": "Slippage inferior a 0.1% em swaps de 5 dígitos comprova maturidade institucional e atratividade para fundos de arbitragem."
+      },
+      {
+        "question": "Qual é o vetor de captura de valor para os detentores do token além da especulação pura?",
+        "metric": "Mecanismo de 'Fee Share' e poder de governança em emissões de LSTs e Perps",
+        "alpha_insight": "O token acumula valor fundamental através do direcionamento de liquidez e distribuição direta de taxas do ecossistema de derivativos."
+      }
+    ]
+  }
+]
